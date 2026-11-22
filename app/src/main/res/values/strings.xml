@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">toolbar-menu-nawigacja</string>
+    <string name="app_name">Pasek</string>
+    <string name="label_name">Imię i nazwisko</string>
+    <string name="hint_name">Jan Kowalski</string>
+    <string name="setting_notifications">Powiadomienia</string>
+    <string name="setting_dark">Tryb ciemny</string>
+    <string name="nav_form">Formularz</string>
+    <string name="nav_settings">Ustawienia</string>
 </resources>
