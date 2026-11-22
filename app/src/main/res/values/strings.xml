@@ -6,4 +6,7 @@
     <string name="setting_dark">Tryb ciemny</string>
     <string name="nav_form">Formularz</string>
     <string name="nav_settings">Ustawienia</string>
+    <string name="action_share">Udostępnij</string>
+    <string name="action_clear">Wyczyść</string>
+    <string name="action_about">O aplikacji</string>
 </resources>
