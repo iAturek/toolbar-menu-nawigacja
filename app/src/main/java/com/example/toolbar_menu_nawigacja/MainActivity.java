@@ -83,6 +83,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setUpBottomNavigation() {
-        //
+        BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
+        bottomNav.setOnItemSelectedListener(item -> {
+            int id = item.getItemId();
+            if (id == R.id.nav_form) {
+                sectionForm.setVisibility(View.VISIBLE);
+                sectionSettings.setVisibility(View.GONE);
+                return true;
+            } else if (id == R.id.nav_settings) {
+                sectionForm.setVisibility(View.GONE);
+                sectionSettings.setVisibility(View.VISIBLE);
+                return true;
+            }
+            return false;
+        });
     }
 }
